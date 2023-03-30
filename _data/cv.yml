@@ -13,53 +13,47 @@
       institution: Technical University Denmark & University of Copenhagen, Copenhagen, Denmark
       year: 2023
       description:
-        - Specialization: Medical Imaging, Machine Learning, and Image Processing
+        - Specialization Medical Imaging, Machine Learning, and Image Processing
         - Thesis: Multimodal brain age prediction - Feature selection and comparison between machine learning models using MRI- and PET-derived measures
     - title: B.Sc. in Biomedical Engineering
       institution: Technische Universität Ilmenau, Ilmenau, Germany
       year: 2020
       description:
-        - Specialization: Biomagnetism, Signal Processing, Medical Imaging
-        - Thesis: Integration of continuous HPI data into real-time processing of MEG data
+        - <b>Specialization</b> Biomagnetism, Signal Processing, Medical Imaging
+        - <b>Thesis</b> Integration of continuous HPI data into real-time processing of MEG data
         
 - title: Experience
   type: time_table
   contents:
   - title: Research Assistant - Data Analysis
-    institution: Copenhagen University Hospital Rigshospitalet
+    institution: Copenhagen University Hospital Rigshospitalet, Neurobiology Research Unit
     year: Mar. 2023 - Today
     description:
-      - Neurobiology Research Unit
       - Statistical modeling and machine learning on neuroimaging data to develop biomarkers of the aging brain.
   - title: Student Researcher - Data Analysis
-    institution: Copenhagen University Hospital Rigshospitalet
+    institution: Copenhagen University Hospital Rigshospitalet, Neurobiology Research Unit
     year: Feb. 2022 - Feb. 2023
     description:
-      - Neurobiology Research Unit
       - Statistical modeling and machine learning on MRI- and PET-derived measures to develop biomarkers of the aging brain.
   - title: Student Worker - Software Engineering
-    institution: Demant A/S
+    institution: Demant A/S, R&D Audiological Solutions
     year: Jun. 2021 - Feb. 2023
     description:
-      - R&D Audiological Solutions
       - Development of unit-testing framework and improvement of continuous integration pipeline with hearing aids in the loop.
   - title: Visiting Researcher - Data Analysis
-    institution: Karolinska Institutet
+    institution: Karolinska Institutet, Center for Psychiatry Research - PET Group
     year: Sep. 2022 - Oct. 2022
     description:
-      - Center for Psychiatry Research - PET Group
       - Image processing and analysis of Positron Emission Tomography images and Magnetic Resonance Images.
   - title: Student Researcher - Research Software Development
-    institution: Massachusetts General Hospital, Harvard Medical School
+    institution: Massachusetts General Hospital, Harvard Medical School, Martinos Center for Biomedical Imaging
     year: Nov. 2019 - Mai 2020
     description:
-      - Athinoula A. Martinos Center for Biomedical Imaging
       - Development of algorithms for real-time movement correction in MEG measurements and online updating of neural source reconstruction
   - title: Student Worker - Embedded Software
-    institution: Institut für Mikroelektronik- und Mechatronik Systeme gGmbH
+    institution: Institut für Mikroelektronik- und Mechatronik Systeme gGmbH, System Design
     year: Mar. 2018 - Aug. 2019
     description:
-      - System Design
       - Setup, test, and evaluate sensors and embedded components in Arduino based environments.
 
 - title: Grants and Scholarships
