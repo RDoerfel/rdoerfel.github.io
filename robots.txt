@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://RDoerfel.github.io/al-folio/sitemap.xml
+Sitemap: https://RDoerfel.github.io/sitemap.xml
