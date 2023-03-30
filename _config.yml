@@ -73,11 +73,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: RDoerfel # your GitHub user name
 twitter_username: RPDoerfel # your Twitter handle
-linkedin_username: ruben-dörfel/ # your LinkedIn user name
-scholar_userid: Ruben P. Dörfel # your Google Scholar ID
-
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+linkedin_username: ruben-dörfel # your LinkedIn user name
+scholar_userid: Ruben P. Dörfel # your Google Scholar ID 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
