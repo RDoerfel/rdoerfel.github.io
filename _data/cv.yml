@@ -63,16 +63,16 @@
     institution: Bundesnachrichtendienst (BND)
     year: Jul. 2020 - Sep. 2020
     description:
-      Amount Awarded - 5000 €
-      Project - Novel software tools for the processing of brain signals in a Brain-Computer Interface (BCI)
-      Purpose - Development and support of open-source software.
+      - Amount Awarded - 5000 €
+      - Project - Novel software tools for the processing of brain signals in a Brain-Computer Interface (BCI)
+      - Purpose - Development and support of open-source software.
   - title: PROMOS Travel Stipend
     institution: German Academic Exchange Program (DAAD)
     year: Nov. 2019 - Apr. 2020
     description:
-      Amount Awarded - 1175 €
-      Purpose - Travel stipend for academic education and training abroad.
-      Institution - MGH/HST Martinos Center for Biomedical Imaging
+      - Amount Awarded - 1175 €
+      - Purpose - Travel stipend for academic education and training abroad.
+      - Institution - MGH/HST Martinos Center for Biomedical Imaging
 
 - title: Other Interests
   type: list
