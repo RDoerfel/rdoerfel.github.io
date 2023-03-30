@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Research Assistant<\b>. @<a href=https://nru.dk/index.php>NRU<\>
+subtitle: <b>Research Assistant<\b>. at the <a href=https://nru.dk/index.php>Neruobiology Research Unit<\>
 
 profile:
   align: right
