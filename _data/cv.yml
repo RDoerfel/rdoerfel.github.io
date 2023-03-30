@@ -13,9 +13,9 @@
       institution: Technical University Denmark & University of Copenhagen, Copenhagen, Denmark
       year: 2020-2023
       description:
-        - <b>Specialization<\b> Medical Imaging, Machine Learning, and Image Processing
+        - Specialization Medical Imaging, Machine Learning, and Image Processing
         make thesis bold 
-        - <b>Thesis<\b> Multimodal brain age prediction - Feature selection and comparison between machine learning models using MRI- and PET-derived measures
+        - Thesis Multimodal brain age prediction - Feature selection and comparison between machine learning models using MRI- and PET-derived measures
     - title: B.Sc. in Biomedical Engineering
       institution: Technische Universität Ilmenau, Ilmenau, Germany
       year: 2016-2020
@@ -64,22 +64,22 @@
       - Setup, test, and evaluate sensors and embedded components in Arduino based environments.
 
 - title: Grants and Scholarships
-- type: time_table
-- contents:
-- title: BND Summer of Code
-  institution: Bundesnachrichtendienst (BND)
-  year: Jul. 2020 - Sep. 2020
-  description:
-    - Amount Awarded: 5000 €
-    - Project: Novel software tools for the processing of brain signals in a Brain-Computer Interface (BCI)
-    - Purpose: Development and support of open-source software.
-- title: PROMOS Travel Stipend
-  institution: German Academic Exchange Program (DAAD)
-  year: Nov. 2019 - Apr. 2020
-  description:
-    - Amount Awarded: 1175 €
-    - Purpose: Travel stipend for academic education and training abroad.
-    - Institution: MGH/HST Martinos Center for Biomedical Imaging
+  type: time_table
+  contents:
+  - title: BND Summer of Code
+    institution: Bundesnachrichtendienst (BND)
+    year: Jul. 2020 - Sep. 2020
+    description:
+      Amount Awarded: 5000 €
+      Project: Novel software tools for the processing of brain signals in a Brain-Computer Interface (BCI)
+      Purpose: Development and support of open-source software.
+  - title: PROMOS Travel Stipend
+    institution: German Academic Exchange Program (DAAD)
+    year: Nov. 2019 - Apr. 2020
+    description:
+      Amount Awarded: 1175 €
+      Purpose: Travel stipend for academic education and training abroad.
+      Institution: MGH/HST Martinos Center for Biomedical Imaging
 
 - title: Other Interests
   type: list
