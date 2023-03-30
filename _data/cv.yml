@@ -11,13 +11,13 @@
   contents:
     - title: M.Sc. in Biomedical Engineering
       institution: Technical University Denmark & University of Copenhagen, Copenhagen, Denmark
-      year: 2023
+      year: 2020-2023
       description:
         - <b>Specialization</b> Medical Imaging, Machine Learning, and Image Processing
         - <b>Thesis</b> Multimodal brain age prediction - Feature selection and comparison between machine learning models using MRI- and PET-derived measures
     - title: B.Sc. in Biomedical Engineering
       institution: Technische Universität Ilmenau, Ilmenau, Germany
-      year: 2020
+      year: 2016-2020
       description:
         - <b>Specialization</b> Biomagnetism, Signal Processing, Medical Imaging
         - <b>Thesis</b> Integration of continuous HPI data into real-time processing of MEG data
