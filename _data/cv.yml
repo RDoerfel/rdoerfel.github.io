@@ -5,11 +5,12 @@
       value: Ruben Dörfel
     - name: Languages
       value: English (Proficent), German (Native)
-    - name: Progrmming Languages
-      value: Python, C++, MATLAB, R, JavaScript
+    - name: Progrmming 
+      value: Python, MATLAB, C++, JavaScript
     - name: Skills
-      value: Machine Learning, Data Science, Image Processing, Software Development, Neuroscience
-
+      value: Machine/Deep Learning, Medical Imaging Systems, Image Processing/Analysis, Software Development, Neuroscience
+    - name: Hobbies
+      value: Climbing, Hiking, Skiing, Reading, Coding, Learning
 
 - title: Education
   type: time_table
@@ -79,8 +80,4 @@
       - Purpose - Travel stipend for academic education and training abroad.
       - Institution - MGH/HST Martinos Center for Biomedical Imaging
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Climbing, Hiking, Reading, Coding
 
