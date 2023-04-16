@@ -5,6 +5,11 @@
       value: Ruben Dörfel
     - name: Languages
       value: English (Proficent), German (Native)
+    - name: Progrmming Languages
+      value: Python, C++, MATLAB, R, JavaScript
+    - name: Skills
+      value: Machine Learning, Data Science, Image Processing, Software Development, Neuroscience
+
 
 - title: Education
   type: time_table
