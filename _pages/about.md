@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Research Assistant</b> at the <a href=https://nru.dk/index.php>Neruobiology Research Unit</a>
+subtitle: <b>Research Assistant</b> at the <a href=https://nru.dk/index.php>Neruobiology Research Unit, Rigshospitalet</a> and <a href=https://ki.se/en/cns/centre-for-psychiatry-research>Centre for Psychiatry Research, Karolinska Institutet</a>
 
 profile:
   align: right

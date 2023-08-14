@@ -31,6 +31,11 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Affiliate - Data Analysis
+    institution: Karolinska Institutet, Center for Psychiatry Research
+    year: Aug. 2023 - Today
+    description:
+      - Statistical modeling and machine learning on neuroimaging data to develop biomarkers of the aging brain.
   - title: Research Assistant - Data Analysis
     institution: Copenhagen University Hospital Rigshospitalet, Neurobiology Research Unit
     year: Mar. 2023 - Today
