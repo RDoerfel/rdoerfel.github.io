@@ -16,10 +16,10 @@
   type: time_table
   contents:
     - title: Ph.D. in Medical Science
-    institution: Karolinska Institutet
-    year: 2023-Today
-    description:
-      - <b>Specialization</b> Medical Imaging, Machine Learning, and Image Processing
+      institution: Karolinska Institutet
+      year: 2023-Today
+      description:
+        - <b>Specialization</b> Medical Imaging, Machine Learning, and Image Processing
     - title: M.Sc. in Biomedical Engineering
       institution: Technical University Denmark & University of Copenhagen, Copenhagen, Denmark
       year: 2020-2023
