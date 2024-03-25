@@ -4,17 +4,33 @@
 @string{aps = {American Physical Society,}}
 
 
-@article{Dorfel2023,
-	title = {Prediction of brain age using structural magnetic resonance imaging: {A} comparison of accuracy and test-retest reliability of publicly available software packages},
-	copyright = {© 2023, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/},
-	shorttitle = {Prediction of brain age using structural magnetic resonance imaging},
-	url = {https://www.biorxiv.org/content/10.1101/2023.01.26.525514v1},
-	doi = {https://doi.org/10.1101/2023.01.26.525514},
-	abstract = {Background: Brain age prediction algorithms using structural magnetic resonance imaging (MRI) aim to assess the biological age of the human brain. The difference between a person's chronological age and the estimated brain age is thought to reflect deviations from a normal aging trajectory, indicating a slower, or accelerated, biological aging process. Several pre-trained software packages for predicting brain age are publicly available. In this study we perform a head-to-head comparison of such packages with respect to 1) predictive accuracy, 2) test-retest reliability, and 3) the ability to track age progression over time. Methods: We evaluated the five brain age prediction packages: brainageR, DeepBrainNet, brainage, ENIGMA, and pyment. The accuracy and test-retest reliability were assessed on MRI data from 372 healthy people, aged between 18.4 and 86.2 years (mean 38.7 +/- 17.5 years). Results: All packages showed significant correlations between predicted brain age and chronological age (r = 0.66 to 0.97, p {\textless} 0.001), with pyment displaying the strongest correlation. The mean absolute error was between 3.56 (pyment) and 9.54 years (ENIGMA). brainageR and pyment were superior in terms of reliability (ICC values between 0.94 - 0.98), as well as predicting age progression over a longer time span. Conclusion: Of the five packages, pyment and brainageR consistently showed the highest accuracy and test-retest reliability.},
-	language = {en},
-	urldate = {2023-01-28},
-	author = {Dörfel, Ruben P. and Arenas-Gomez, Joan M. and Fisher, Patrick M. and Ganz, Melanie and Knudsen, Gitte M. and Svensson, Jonas and Plaven-Sigray, Pontus},
-	month = jan,
-	year = {2023},
-	keywords = {BrainAge, reliabilitiy, software},
+@article{Doerfel2023,
+  title      = {Prediction of Brain Age Using Structural Magnetic Resonance Imaging: {{A}} Comparison of Accuracy and Test--Retest Reliability of Publicly Available Software Packages},
+  shorttitle = {Prediction of Brain Age Using Structural Magnetic Resonance Imaging},
+  author     = {D{\"o}rfel, Ruben P. and {Arenas-Gomez}, Joan M. and Fisher, Patrick M. and Ganz, Melanie and Knudsen, Gitte M. and Svensson, Jonas E. and {Plav{\'e}n-Sigray}, Pontus},
+  year       = {2023},
+  journal    = {Human Brain Mapping},
+  volume     = {44},
+  number     = {17},
+  pages      = {6139--6148},
+  issn       = {1097-0193},
+  doi        = {10.1002/hbm.26502},
+  urldate    = {2024-03-25},
+  abstract   = {Brain age prediction algorithms using structural magnetic resonance imaging (MRI) aim to assess the biological age of the human brain. The difference between a person's chronological age and the estimated brain age is thought to reflect deviations from a normal aging trajectory, indicating a slower or accelerated biological aging process. Several pre-trained software packages for predicting brain age are publicly available. In this study, we perform a comparison of such packages with respect to (1) predictive accuracy, (2) test--retest reliability, and (3) the ability to track age progression over time. We evaluated the six brain age prediction packages: brainageR, DeepBrainNet, brainage, ENIGMA, pyment, and mccqrnn. The accuracy and test--retest reliability were assessed on MRI data from 372 healthy people aged between 18.4 and 86.2 years (mean 38.7 {\textpm} 17.5 years). All packages showed significant correlations between predicted brain age and chronological age (r = 0.66--0.97, p {$<$} 0.001), with pyment displaying the strongest correlation. The mean absolute error was between 3.56 (pyment) and 9.54 years (ENIGMA). brainageR, pyment, and mccqrnn were superior in terms of reliability (ICC values between 0.94--0.98), as well as predicting age progression over a longer time span. Of the six packages, pyment and brainageR consistently showed the highest accuracy and test--retest reliability.},
+  copyright  = {{\copyright} 2023 The Authors. Human Brain Mapping published by Wiley Periodicals LLC.},
+  langid     = {english},
+  keywords   = {Accuracy,Brain Age,MRI,Reliability,Test-Retest},
+  file       = {C:\Users\rubendorfel\Zotero\storage\GBHNLLTN\Dörfel et al. - 2023 - Prediction of brain age using structural magnetic .pdf}
+}
+
+@article{Doerfel2024,
+  title        = {Multimodal Brain Age Prediction Using Machine Learning: Combining Structural {{MRI}} and 5-{{HT2AR PET}} Derived Features},
+  author       = {D{\"o}rfel, Ruben P. and {Arenas-Gomez}, Joan M. and Svarer, Claus and Ganz, Melanie and Knudsen, Gitte M. and Svensson, Jonas E. and {Plav{\'e}n-Sigray}, Pontus},
+  year         = {2024},
+  journal      = {bioRxiv : the preprint server for biology},
+  eprint       = {https://www.biorxiv.org/content/early/2024/02/28/2024.02.05.578968.full.pdf},
+  publisher    = {Cold Spring Harbor Laboratory},
+  doi          = {10.1101/2024.02.05.578968},
+  abstract     = {To better assess the pathology of neurodegenerative disorders and the efficacy of neuroprotective interventions, it is necessary to develop biomarkers that can accurately capture age-related biological changes in the human brain. Brain serotonin 2A receptors (5-HT2AR) show a particularly profound age-related decline and are also reduced in neurodegenerative disorders, such as Alzheimer's disease.This study investigates whether the decline in 5-HT2AR binding, measured in vivo using positron emission tomography (PET), can be used as a biomarker for brain aging. Specifically, we aim to 1) predict brain age using 5-HT2AR binding outcomes, 2) compare 5-HT2AR-based predictions of brain age to predictions based on gray matter (GM) volume, as determined with structural magnetic resonance imaging (MRI), and 3) investigate whether combining 5-HT2AR and GM volume data improves prediction.We used PET and MR images from 209 healthy individuals aged between 18 and 85 years (mean=38, std=18), and estimated 5-HT2AR binding and GM volume for 14 cortical and subcortical regions. Different machine learning algorithms were applied to predict chronological age based on 5-HT2AR binding, GM volume, and the combined measures. The mean absolute error (MAE) and a cross-validation approach were used for evaluation and model comparison.We find that both the cerebral 5-HT2AR binding (mean MAE=6.63 years, std=0.74 years) and GM volume (mean MAE=6.95 years, std=0.83 years) predict chronological age accurately. Combining the two measures improves the prediction further (mean MAE=5.54 years, std=0.68). In conclusion, 5-HT2AR binding measured using PET might be useful for improving the quantification of a biomarker for brain aging.Competing Interest StatementThe authors have declared no competing interest.},
+  elocation-id = {2024.02.05.578968}
 }
