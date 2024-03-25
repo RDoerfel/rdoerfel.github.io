@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my personal website! I am a data scientist passionate about developing robust and explainable models for safe and fair applications in medicine and neuroscience. Generally, I'm interested in applied problems in the combined fields of computer science, mathematics and neuroscience. My expertise lies in machine learning, neuro-image analysis (M/EEG, MRI, PET), software development, and applied statistics.
+Welcome to my personal website! I am a data scientist passionate about developing robust and explainable models for safe and fair applications in medicine and neuroscience. Generally, I'm interested in applied problems in the combined fields of computer science, mathematics and neuroscience. My expertise lies in machine learning, neuro-image analysis (M/EEG, MRI, PET), software development, and applied statistics. My current research focuses on developing and validating biomarkers for biological brain aging.
 
 ### Short Bio
 I have a Bachelor of Science in Biomedical Engineering from the Technical University of Ilmenau, Germany, and a Master of Science from the Technical University Denmark and Copenhagen University. During my Bachelor's I did internships at the MEG Lab at the [MGH/HST Athinoula A. Martinos Center for Biomedical Imaging](https://www.martinos.org) where I worked on real-time movement estimation and correction for MEG measurements. A significant part of this work has been contributed to the open-source software [MNE-CPP](https://mne-cpp.org). Additionally, I've been granted the BND Summer of Code scholarship to contribute to this project. 
