@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my personal website! I am a data scientist passionate about developing robust and explainable models for safe and fair applications in medicine and neuroscience. Generally, I'm interested in applied problems in the combined fields of computer science, mathematics and neuroscience. My expertise lies in machine learning, neuro-image analysis (M/EEG, MRI, PET), software development, and applied statistics. My current research focuses on developing and validating biomarkers for biological brain aging.
+I am a biomedical engineer passionate about developing robust and explainable models for safe and fair applications in medicine and neuroscience. Generally, I'm interested in applied problems in the combined fields of computer science, mathematics and neuroscience. My expertise lies in machine learning, neuro-image analysis (M/EEG, MRI, PET), software development, and applied statistics. My current research focuses on developing and validating biomarkers for biological brain aging.
 
 Do not hesitate to reach out if you have any questions or want to collaborate. I'm always open to new ideas and projects. Specifically I'm looking for students with a computer science background to work on projects in the field of neuroimaging and machine learning.
 
