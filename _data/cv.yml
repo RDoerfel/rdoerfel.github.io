@@ -88,4 +88,42 @@
       - Purpose - Travel stipend for academic education and training abroad.
       - Institution - MGH/HST Martinos Center for Biomedical Imaging
 
+- title: Teaching, Presentations, and Workshops
+  type: time_table
+  contents:
+  - title: Poster Presentation
+    institution: Organization for Human Brain Mapping (OHBM), Seoul, South Korea
+    year: Jun. 2024
+    description:
+      - Title - Multimodal brain age prediction
+  - title: Poster Presentation
+    institution: Danish Digitalization, Data Science and AI, Nyborg, Denmark
+    year: Feb. 2024
+    description:
+      - Title - Multimodal brain age prediction
+  - title: Oral Presentation
+    institution: Nordic AI Meet, Copenhagen, Denmark
+    year: Oct. 2023
+    description:
+      - Title - Multimodal brain age prediction
+  - title: Oral Presentation
+    institution: NRU Christmas Symposium, Copenhagen, Denmark
+    year: Dec. 2023
+    description:
+      - Title - Brain Age; Biological aging biomarker or just an expensive chronological age measure? 
+  - title: Lecture
+    institution: Department of Computer Science, University of Copenhagen, Denmark
+    year: Sept. 2023
+    description:
+      - Title - Prediction of brain age using structural magnetic resonance imaging
+  - title: Lecture
+    institution: Department of Computer Science, University of Copenhagen, Denmark
+    year: Sept. 2024
+    description:
+      - Title - Multimodal brain age estimation using machine learning
+  - title: Workshop - Organizer
+    institution: Danish Digitalization, Data Science and AI 2.0, Nyborg, Denmark
+    year: Oct. 2024
+    description:
+      - Title - Level up your data & life science lab’s reproducibility
 
