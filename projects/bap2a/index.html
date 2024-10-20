@@ -115,13 +115,13 @@
           </header>
 
           <article>
-            <h1 id="multimodal-brain-age-prediction-using-machine-learning">Multimodal Brain Age Prediction Using Machine Learning</h1>
+            <h2 id="multimodal-brain-age-prediction-using-machine-learning">Multimodal Brain Age Prediction Using Machine Learning</h2>
 
-<h2 id="overview">Overview</h2>
+<h3 id="overview">Overview</h3>
 
 <p>This project focuses on developing advanced biomarkers for assessing age-related biological changes in the human brain. We combine structural MRI and 5-HT2AR PET data to improve brain age prediction, which is crucial for understanding neurodegenerative disorders and evaluating neuroprotective interventions. Please visit the <a href="https://github.com/RDoerfel/bap2a-public.git" rel="external nofollow noopener" target="_blank">GitHub repository</a> for code and documentation:</p>
 
-<h2 id="key-objectives">Key Objectives</h2>
+<h3 id="key-objectives">Key Objectives</h3>
 
 <ol>
   <li>Predict brain age using 5-HT2AR binding outcomes</li>
@@ -129,7 +129,7 @@
   <li>Investigate the synergy of combining 5-HT2AR and GM volume data for improved prediction accuracy</li>
 </ol>
 
-<h2 id="methodology">Methodology</h2>
+<h3 id="methodology">Methodology</h3>
 
 <ul>
   <li>
@@ -142,7 +142,7 @@
 <strong>Evaluation</strong>: Used Mean Absolute Error (MAE) and cross-validation for model comparison</li>
 </ul>
 
-<h2 id="key-findings">Key Findings</h2>
+<h3 id="key-findings">Key Findings</h3>
 
 <ul>
   <li>5-HT2AR binding predicts chronological age accurately (mean MAE = 6.63 years, std = 0.74 years)</li>
@@ -150,7 +150,7 @@
   <li>Combining both measures significantly improves prediction accuracy (mean MAE = 5.54 years, std = 0.68)</li>
 </ul>
 
-<h2 id="publication">Publication</h2>
+<h3 id="publication">Publication</h3>
 
 <ul>
   <li>
@@ -161,44 +161,21 @@
 </li>
 </ul>
 
-<h2 id="citation">Citation</h2>
+<h3 id="citation">Citation</h3>
 
-<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@article</span><span class="p">{</span><span class="nl">Doerfel2024</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Multimodal Brain Age Prediction Using Machine Learning: Combining Structural  and 5- Features}</span><span class="p">,</span>
-  <span class="na">shorttitle</span> <span class="p">=</span> <span class="s">{Multimodal Brain Age Prediction Using Machine Learning}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{D{\"o}rfel, Ruben P. and {Arenas-Gomez}, Joan M. and Svarer, Claus and Ganz, Melanie and Knudsen, Gitte M. and Svensson, Jonas E. and {Plav{\'e}n-Sigray}, Pontus}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{GeroScience}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1007/s11357-024-01148-6}</span><span class="p">,</span>
-  <span class="na">urldate</span> <span class="p">=</span> <span class="s">{2024-05-01}</span><span class="p">,</span>
-  <span class="na">copyright</span> <span class="p">=</span> <span class="s">{All rights reserved}</span><span class="p">,</span>
-  <span class="na">langid</span> <span class="p">=</span> <span class="s">{english}</span><span class="p">,</span>
-  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{5HT2A,brain age,MRI,multimodal,PET}</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<h2 id="code-repository">Code Repository</h2>
-
-<p>The code and documentation for this project are available on GitHub. To use the code:</p>
-
-<ol>
-  <li>Clone the repository:
-    <div class="language-plaintext highlighter-rouge">
-<div class="highlight"><pre class="highlight"><code>git clone https://github.com/RDoerfel/bap2a-public.git
-</code></pre></div>    </div>
-  </li>
-  <li>Set up the environment:
-    <div class="language-plaintext highlighter-rouge">
-<div class="highlight"><pre class="highlight"><code>conda env create -f environment.yml
-conda activate bap2a-public
-</code></pre></div>    </div>
-  </li>
-  <li>Install the package:
-    <div class="language-plaintext highlighter-rouge">
-<div class="highlight"><pre class="highlight"><code>pip install -e .
-</code></pre></div>    </div>
-  </li>
-</ol>
+<p>```bibtex
+@article{Doerfel2024,
+  title = {Multimodal Brain Age Prediction Using Machine Learning: Combining Structural  and 5- Features},
+  shorttitle = {Multimodal Brain Age Prediction Using Machine Learning},
+  author = {D{"o}rfel, Ruben P. and {Arenas-Gomez}, Joan M. and Svarer, Claus and Ganz, Melanie and Knudsen, Gitte M. and Svensson, Jonas E. and {Plav{'e}n-Sigray}, Pontus},
+  year = {2024},
+  journal = {GeroScience},
+  doi = {10.1007/s11357-024-01148-6},
+  urldate = {2024-05-01},
+  copyright = {All rights reserved},
+  langid = {english},
+  keywords = {5HT2A,brain age,MRI,multimodal,PET}
+}</p>
 
           </article>
 
