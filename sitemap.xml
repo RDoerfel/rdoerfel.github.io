@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://rdoerfel.github.io/news/announcement_1/</loc>
-<lastmod>2015-10-22T19:59:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://rdoerfel.github.io/news/announcement_2/</loc>
+<loc>https://rdoerfel.github.io/projects/2024-October-20-test1/</loc>
 <lastmod>2015-11-07T20:11:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://rdoerfel.github.io/news/announcement_3/</loc>
-<lastmod>2016-01-15T11:59:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://rdoerfel.github.io/projects/test_project/</loc>
-<lastmod>2015-11-07T20:11:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://rdoerfel.github.io/projects/test_project_2/</loc>
+<loc>https://rdoerfel.github.io/projects/2024-October-20-test2/</loc>
 <lastmod>2015-11-07T20:11:00+00:00</lastmod>
 </url>
 <url>
