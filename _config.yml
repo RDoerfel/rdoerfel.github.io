@@ -138,6 +138,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+    sort_by: date
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

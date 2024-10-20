@@ -11,7 +11,7 @@ nav_order: 3
 ### [{{ project.title }}]({{ project.url }})
 
 **Category:** {{ project.category }}  
-**Date:** {{ project.date }}
+**Date:** {{ project.date  | date: "%B %d, %Y"}}
 
 {{ project.description }}
 {% endfor %}
