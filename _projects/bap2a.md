@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: "Multimodal Brain Age Prediction Using Machine Learning"
 description: "Combining structural MRI and 5-HT2AR PET derived features for accurate brain age prediction"
 category: research
