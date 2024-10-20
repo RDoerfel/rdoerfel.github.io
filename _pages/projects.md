@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: collection
 permalink: /projects/
 title: projects
 nav: true
