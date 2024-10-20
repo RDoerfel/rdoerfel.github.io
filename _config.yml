@@ -137,8 +137,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
-    sort_by: date
+    permalink: /:collection/:title/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
