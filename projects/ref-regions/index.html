@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Comparison of Brain Age Prediction Software Packages | Ruben P. Dörfel</title>
+    <title>Reference Regions for PET analysis | Ruben P. Dörfel</title>
     <meta name="author" content="Ruben P. Dörfel">
-    <meta name="description" content="Evaluating accuracy and test-retest reliability of publicly available software for brain age prediction using structural MRI">
+    <meta name="description" content="A lightweight pyhton package to create reference regions for positron emission tomography (PET) analysis">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://rdoerfel.github.io/projects/bap1a/">
+    <link rel="canonical" href="https://rdoerfel.github.io/projects/ref-regions/">
     
     <!-- Dark Mode -->
     
@@ -110,85 +110,12 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Comparison of Brain Age Prediction Software Packages</h1>
-            <p class="post-description">Evaluating accuracy and test-retest reliability of publicly available software for brain age prediction using structural MRI</p>
+            <h1 class="post-title">Reference Regions for PET analysis</h1>
+            <p class="post-description">A lightweight pyhton package to create reference regions for positron emission tomography (PET) analysis</p>
           </header>
 
           <article>
-            <h1 id="prediction-of-brain-age-using-structural-magnetic-resonance-imaging">Prediction of Brain Age Using Structural Magnetic Resonance Imaging</h1>
-
-<h2 id="abstract">Abstract</h2>
-
-<p>Brain age prediction algorithms using structural magnetic resonance imaging (MRI) aim to assess the biological age of the human brain. The difference between a person’s chronological age and the estimated brain age is thought to reflect deviations from a normal aging trajectory, indicating a slower or accelerated biological aging process. Several pre-trained software packages for predicting brain age are publicly available. In this study, we perform a comparison of such packages with respect to (1) predictive accuracy, (2) test–retest reliability, and (3) the ability to track age progression over time.</p>
-
-<h2 id="objectives">Objectives</h2>
-
-<ol>
-  <li>Evaluate the predictive accuracy of multiple publicly available software packages for brain age prediction</li>
-  <li>Assess the test-retest reliability of these software packages</li>
-  <li>Compare the ability of each package to track age progression over time</li>
-  <li>Provide a comprehensive comparison to guide researchers in choosing appropriate tools for their studies</li>
-</ol>
-
-<h2 id="methodology">Methodology</h2>
-
-<ul>
-  <li>
-<strong>Data</strong>:
-    <ul>
-      <li>T1-weighted MRI scans from 372 healthy individuals (age range: 18.4-86.2 years, mean 38.7 ± 17.5 years)</li>
-    </ul>
-  </li>
-  <li>
-<strong>Software Packages</strong>:
-    <ul>
-      <li>brainageR</li>
-      <li>DeepBrainNet</li>
-      <li>brainage</li>
-      <li>ENIGMA</li>
-      <li>pyment</li>
-      <li>mccqrnn</li>
-    </ul>
-  </li>
-  <li>
-<strong>Metrics</strong>:
-    <ul>
-      <li>Accuracy: Mean Absolute Error (MAE), Pearson’s correlation coefficient (r)</li>
-      <li>Reliability: Intraclass Correlation Coefficient (ICC)</li>
-      <li>Age progression tracking: Analysis over a longer time span</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="implications">Implications</h2>
-
-<ul>
-  <li>Significant differences in accuracy, reliability, and age progression tracking across software packages</li>
-  <li>pyment and brainageR consistently showed the highest accuracy and test-retest reliability</li>
-  <li>some models are highly accurate and reliable</li>
-</ul>
-
-<h2 id="publications">Publications</h2>
-
-<p>Dörfel, R. P., Arenas-Gomez, J. M., Fisher, P. M., Ganz, M., Knudsen, G. M., Svensson, J. E., &amp; Plavén-Sigray, P. (2023). Prediction of Brain Age Using Structural Magnetic Resonance Imaging: A Comparison of Accuracy and Test–Retest Reliability of Publicly Available Software Packages. Human Brain Mapping, 44(17), 6139-6148. <a href="https://doi.org/10.1002/hbm.26502" rel="external nofollow noopener" target="_blank">https://doi.org/10.1002/hbm.26502</a></p>
-
-<h2 id="citation">Citation</h2>
-
-<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@article</span><span class="p">{</span><span class="nl">Doerfel2023</span><span class="p">,</span>
-  <span class="na">title</span>      <span class="p">=</span> <span class="s">{Prediction of Brain Age Using Structural Magnetic Resonance Imaging:  Comparison of Accuracy and Test--Retest Reliability of Publicly Available Software Packages}</span><span class="p">,</span>
-  <span class="na">shorttitle</span> <span class="p">=</span> <span class="s">{Prediction of Brain Age Using Structural Magnetic Resonance Imaging}</span><span class="p">,</span>
-  <span class="na">author</span>     <span class="p">=</span> <span class="s">{D{\"o}rfel, Ruben P. and {Arenas-Gomez}, Joan M. and Fisher, Patrick M. and Ganz, Melanie and Knudsen, Gitte M. and Svensson, Jonas E. and {Plav{\'e}n-Sigray}, Pontus}</span><span class="p">,</span>
-  <span class="na">year</span>       <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">journal</span>    <span class="p">=</span> <span class="s">{Human Brain Mapping}</span><span class="p">,</span>
-  <span class="na">volume</span>     <span class="p">=</span> <span class="s">{44}</span><span class="p">,</span>
-  <span class="na">number</span>     <span class="p">=</span> <span class="s">{17}</span><span class="p">,</span>
-  <span class="na">pages</span>      <span class="p">=</span> <span class="s">{6139--6148}</span><span class="p">,</span>
-  <span class="na">issn</span>       <span class="p">=</span> <span class="s">{1097-0193}</span><span class="p">,</span>
-  <span class="na">doi</span>        <span class="p">=</span> <span class="s">{10.1002/hbm.26502}</span><span class="p">,</span>
-  <span class="na">urldate</span>    <span class="p">=</span> <span class="s">{2024-03-25}</span><span class="p">,</span>
-  <span class="na">abstract</span>   <span class="p">=</span> <span class="s">{Brain age prediction algorithms using structural magnetic resonance imaging (MRI) aim to assess the biological age of the human brain. The difference between a person's chronological age and the estimated brain age is thought to reflect deviations from a normal aging trajectory, indicating a slower or accelerated biological aging process. Several pre-trained software packages for predicting brain age are publicly available. In this study, we perform a comparison of such packages with respect to (1) predictive accuracy, (2) test--retest reliability, and (3) the ability to track age progression over time. We evaluated the six brain age prediction packages: brainageR, DeepBrainNet, brainage, ENIGMA, pyment, and mccqrnn. The accuracy and test--retest reliability were assessed on MRI data from 372 healthy people aged between 18.4 and 86.2 years (mean 38.7 {\textpm} 17.5 years). All packages showed significant correlations between predicted brain age and chronological age (r = 0.66--0.97, p {$&lt;$} 0.001), with pyment displaying the strongest correlation. The mean absolute error was between 3.56 (pyment) and 9.54 years (ENIGMA). brainageR, pyment, and mccqrnn were superior in terms of reliability (ICC values between 0.94--0.98), as well as predicting age progression over a longer time span. Of the six packages, pyment and brainageR consistently showed the highest accuracy and test--retest reliability.}</span>
-<span class="p">}</span>
-</code></pre></div></div>
+            <p>This project aims to provide a lightweight python package to create reference regions for positron emission tomography (PET) analysis. The package includes functions to extract reference regions from T1-weighted MRI images and to create binary masks for these regions. The package is designed to be user-friendly and can be easily integrated into existing pipelines for PET image processing. It is based on <a href="https://github.com/Deep-MI/FastSurfer" rel="external nofollow noopener" target="_blank">FastSurfer</a> The code is available on <a href="https://github.com/RDoerfel/pet_reference_regions" rel="external nofollow noopener" target="_blank">GitHub</a>.</p>
 
           </article>
 
