@@ -3,6 +3,7 @@ layout: page
 title: "Comparison of Brain Age Prediction Software Packages"
 description: "Evaluating accuracy and test-retest reliability of publicly available software for brain age prediction using structural MRI"
 category: research
+date: 2023-09-01
 ---
 
 # Prediction of Brain Age Using Structural Magnetic Resonance Imaging

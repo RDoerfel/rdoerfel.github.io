@@ -10,6 +10,8 @@ nav_order: 3
 {% for project in site.projects %}
 ### [{{ project.title }}]({{ project.url }})
 
-**Category:** {{ project.category }}  --  **Date:** {{ project.date }}
+**Category:** {{ project.category }}  
+**Date:** {{ project.date }}
+
 {{ project.description }}
 {% endfor %}
