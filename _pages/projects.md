@@ -1,6 +1,7 @@
 ---
 layout: page
-title: My Projects
+title: Projects
+description: "A list of projects I have worked on."
 permalink: /projects/
 nav: true
 nav_order: 3
