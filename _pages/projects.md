@@ -11,11 +11,12 @@ pagination:
     collection: projects
     permalink: /page/:num/
 ---
-{% for project in site.projects %}
-    <div>
-        <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
-        <p><strong>Date:</strong> {{ project.date }}</p>
-        <p><strong>Description:</strong> {{ project.description }}</p>
-    </div>
-{% endfor %}
-
+<div class="post">
+    {% for project in site.projects %}
+        <div>
+            <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
+            <p><strong>Date:</strong> {{ project.date }}</p>
+            <p><strong>Description:</strong> {{ project.description }}</p>
+        </div>
+    {% endfor %}
+</div>
