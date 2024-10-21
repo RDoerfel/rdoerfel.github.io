@@ -6,7 +6,7 @@
     - name: Languages
       value: English (Proficent), German (Native)
     - name: Programming 
-      value: Python, MATLAB, C++, JavaScript
+      value: Python, MATLAB, C++, R
     - name: Skills
       value: Machine/Deep Learning, Medical Imaging Systems, Image Processing/Analysis, Software Development, Neuroscience
     - name: Hobbies
