@@ -104,7 +104,17 @@
           >{{more_authors_hide}}</span>
         {%- endif -%}
 
-        </div>
+        <!-- DOI and URL -->
+        {% if entry.doi %}
+          <div class="doi">
+            <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener">DOI: {{ entry.doi }}</a>
+          </div>
+        {% endif %}
+        {% if entry.url %}
+          <div class="url">
+            <a href="{{ entry.url }}" target="_blank" rel="noopener">URL: {{ entry.url }}</a>
+          </div>
+        {% endif %}
 
         <!-- Journal/Book title and date -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
