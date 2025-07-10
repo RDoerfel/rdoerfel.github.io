@@ -1,2 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://rdoerfel.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rdoerfel.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-07-10T14:01:46+00:00</updated><id>https://rdoerfel.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://rdoerfel.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rdoerfel.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-07-10T14:15:34+00:00</updated><id>https://rdoerfel.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Setting up a Scientific Python Project from Scratch</title><link href="https://rdoerfel.github.io/blog/2025/Environment-Setup/" rel="alternate" type="text/html" title="Setting up a Scientific Python Project from Scratch" /><published>2025-07-10T00:00:00+00:00</published><updated>2025-07-10T00:00:00+00:00</updated><id>https://rdoerfel.github.io/blog/2025/Environment-Setup</id><content type="html" xml:base="https://rdoerfel.github.io/blog/2025/Environment-Setup/"><![CDATA[<h1 id="setting-up-a-scientific-python-project-from-scratch">Setting up a Scientific Python Project from Scratch</h1>
+
+<p>This guide is intended as a resource for students and researchers who want to set up a scientific Python project from scratch. It will cover the basic steps to create a project structure that follows good coding practices, including version control, managing Python versions and virtual environments. It is by no means a comprehensive guide, but rather a starting point for your own projects.</p>
+
+<p>It is mainly tested on Windows 10 and Linux. I aim to keep it updated with state-of-the-art tools and practices, but it might not always be up to date. If you find any issues or have suggestions for improvements, please feel free to contact me.</p>
+
+<h2 id="installations">Installations</h2>
+
+<ol>
+  <li>Install git
+    <ul>
+      <li><a href="https://git-scm.com/downloads">Git - Downloads</a></li>
+    </ul>
+  </li>
+  <li>Install VSCode
+    <ul>
+      <li><a href="https://code.visualstudio.com/">Visual Studio Code - Code Editing</a></li>
+    </ul>
+  </li>
+  <li>Install pyenv
+    <ul>
+      <li><a href="https://pyenv.net/">pyenv - Simple Python version management</a></li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="accounts">Accounts</h2>
+
+<ul>
+  <li>GitHub (connect your machine to GitHub via SSH <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">Connecting to GitHub with SSH - GitHub Docs</a>)</li>
+</ul>
+
+<h2 id="workflow">Workflow</h2>
+
+<ol>
+  <li>
+    <p><strong>Global Python setup</strong></p>
+
+    <p>We will differentiate between the global Python setup, used to install basic tools like <code class="language-plaintext highlighter-rouge">cookiecutter</code> and <code class="language-plaintext highlighter-rouge">poetry</code>, but not for the project itself, and the project setup, which will be done in a virtual environment.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c"># get a list of all available Python versions</span>
+ pyenv <span class="nb">install</span> <span class="nt">--list</span>
+ <span class="c"># choose the version you want to install, e.g. 3.11.4. I would suggest using the latest stable version</span>
+ pyenv <span class="nb">install </span>3.11.4 
+ <span class="c"># set the global Python version</span>
+ pyenv global 3.11.4
+</code></pre></div>    </div>
+
+    <p>Now, we can install <code class="language-plaintext highlighter-rouge">poetry</code> to manage our virtual environments and dependencies, and <code class="language-plaintext highlighter-rouge">cookiecutter</code> to create pre-defined project structures.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c"># install poetry</span>
+ pip <span class="nb">install </span>poetry
+ <span class="c"># configure poetry to create virtual environments within the project folder</span>
+ poetry config virtualenvs.in-project <span class="nb">true</span>
+ <span class="c"># install cookiecutter</span>
+ pip <span class="nb">install </span>cookiecutter
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>Project setup</strong></p>
+
+    <p>Now we can create a new project using <code class="language-plaintext highlighter-rouge">cookiecutter</code>. I like to use lightweight templates, such as the one I created. This will create a project structure that follows good coding practices.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> cookiecutter gh:RDoerfel/simple-cookiecutter
+</code></pre></div>    </div>
+
+    <p>Go through the initialization steps and create the project skeleton. cd into the project directory after its creation. You might as well use the <code class="language-plaintext highlighter-rouge">gh:patrickmineault/true-neutral-cookiecutter</code> template, or for larger projects, <code class="language-plaintext highlighter-rouge">gh:CBS-HPC/replication_package</code>.</p>
+  </li>
+  <li>
+    <p><strong>Local Python setup</strong></p>
+
+    <p>Once you have created the project structure with cookiecutter, we are ready to set up our local Python environment. First, install the Python version you want to use for the project.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c"># Again, have a look at all available Python versions and choose the one you need</span>
+ pyenv <span class="nb">install</span> <span class="nt">--list</span>
+ <span class="c"># install the version you want to use, e.g. 3.11.4</span>
+ pyenv <span class="nb">install </span>3.11.4
+ <span class="c"># set the local Python version for the project</span>
+ pyenv <span class="nb">local </span>3.11.4
+</code></pre></div>    </div>
+
+    <p>Now we can use <code class="language-plaintext highlighter-rouge">poetry</code> to manage our virtual environment and dependencies. Poetry will create a virtual environment within the project folder, which is a good practice to keep the project isolated from other projects and the global Python environment.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c"># tell poetry to use the local Python version</span>
+ poetry <span class="nb">env </span>use <span class="si">$(</span>pyenv which python<span class="si">)</span>
+ <span class="c"># initialize the poetry project</span>
+ poetry init 
+ <span class="c"># install the project</span>
+ poetry <span class="nb">install</span> 
+ <span class="c"># install packages</span>
+ poetry add numpy <span class="c"># this is how to install packages within the project</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>Version Control</strong></p>
+
+    <p>Initialize version control and connect it to GitHub. We first need to create a <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository">new repository on GitHub</a>. Once you have done that, we can initialize git in the project directory and connect it to the remote repository.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git init
+ git remote add origin &lt;your_github_repo&gt;
+</code></pre></div>    </div>
+
+    <p>Open the <code class="language-plaintext highlighter-rouge">.gitignore</code> file. This is a file that excludes other files or directories from version control. We use this for data and environments, etc.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> .venv/
+ poetry.lock
+ data/
+</code></pre></div>    </div>
+
+    <p>Once all the unwanted files and directories are excluded, stage everything, commit, and push as initial commit.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git add <span class="nt">--all</span>
+ git commit <span class="nt">-m</span> <span class="s2">"initialize project"</span>
+ git push origin main
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="further-guides">Further guides</h2>
+
+<ul>
+  <li><a href="https://code.visualstudio.com/docs/remote/ssh-tutorial">Remote development in VSCode using SSH</a></li>
+  <li><a href="https://goodresearch.dev/">The Good Research Code Handbook — Good research code</a></li>
+  <li><a href="https://russpoldrack.substack.com/">Russ Poldrack’s substack and his chapters on Better Code Better Science</a></li>
+</ul>]]></content><author><name></name></author><category term="software" /><category term="research" /><category term="python" /><summary type="html"><![CDATA[A guide to set up a scientific Python project from scratch, covering version control, virtual environments, and project structure.]]></summary></entry></feed>

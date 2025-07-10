@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://rdoerfel.github.io/blog/2025/Environment-Setup/</loc>
+<lastmod>2025-07-10T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>https://rdoerfel.github.io/projects/plotting/</loc>
 <lastmod>2023-05-05T00:00:00+00:00</lastmod>
 </url>
@@ -38,5 +42,17 @@
 </url>
 <url>
 <loc>https://rdoerfel.github.io/publications/</loc>
+</url>
+<url>
+<loc>https://rdoerfel.github.io/blog/tag/research/</loc>
+</url>
+<url>
+<loc>https://rdoerfel.github.io/blog/tag/python/</loc>
+</url>
+<url>
+<loc>https://rdoerfel.github.io/blog/category/software/</loc>
+</url>
+<url>
+<loc>https://rdoerfel.github.io/blog/2025/</loc>
 </url>
 </urlset>
