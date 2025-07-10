@@ -4,7 +4,7 @@ title: Setting up a Scientific Python Project from Scratch
 description: A guide to set up a scientific Python project from scratch, covering version control, virtual environments, and project structure.
 tags: research python
 category: software
-date: 2025-10-07
+date: 2025-07-10
 ---
 # Setting up a Scientific Python Project from Scratch
 
