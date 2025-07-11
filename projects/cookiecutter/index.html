@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>projects | Ruben P. Dörfel</title>
+    <title>Simple Cookiecutter Template | Ruben P. Dörfel</title>
     <meta name="author" content="Ruben P. Dörfel">
-    <meta name="description" content="A list of projects I have worked on.">
+    <meta name="description" content="A simple cookiecutter template for starting Python projects with standard structure and development tools">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://rdoerfel.github.io/projects/">
+    <link rel="canonical" href="https://rdoerfel.github.io/projects/cookiecutter/">
     
     <!-- Dark Mode -->
     
@@ -80,8 +80,8 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">publications</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="/projects/">projects<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/cv/">cv</a>
@@ -114,60 +114,177 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">projects</h1>
-            <p class="post-description">A list of projects I have worked on.</p>
+            <h1 class="post-title">Simple Cookiecutter Template</h1>
+            <p class="post-description">A simple cookiecutter template for starting Python projects with standard structure and development tools</p>
           </header>
 
           <article>
-            
-<h3 id="plotting"><a href="/projects/plotting/">Plotting</a></h3>
+            <p>When starting a new Python project, you typically need to create the same directory structure, configure <code class="language-plaintext highlighter-rouge">pyproject.toml</code>, set up development tools, and write boilerplate files. This cookiecutter template automates that process. It provides a standard project structure, configures Poetry for dependency management, and sets up common development tools like pytest, black, mypy, and flake8. It also includes an optional GitHub Actions workflow for continuous integration. It is mainly designed for lightweight data science and machine learning projects.</p>
 
-<p><strong>Category:</strong> software<br>
-<strong>Date:</strong> May 05, 2023</p>
+<h2 id="what-the-template-generates">What the Template Generates</h2>
 
-<p>Package for highly customized plotting of scientific figures in Python</p>
+<p>The template creates a Python project with:</p>
 
-<h3 id="comparison-of-brain-age-prediction-software-packages"><a href="/projects/bap1a/">Comparison of Brain Age Prediction Software Packages</a></h3>
+<ul>
+  <li>Standard directory structure (source code, tests, data, docs, notebooks)</li>
+  <li>Poetry configuration in <code class="language-plaintext highlighter-rouge">pyproject.toml</code>
+</li>
+  <li>Automated test environment setup</li>
+  <li>Linting configuration and implementation</li>
+  <li>Development tools: pytest, black, mypy, flake8 (configurable)</li>
+  <li>GitHub Actions workflow (optional, automatically configured)</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">.gitignore</code> with Python exclusions</li>
+  <li>MIT License template</li>
+</ul>
 
-<p><strong>Category:</strong> research<br>
-<strong>Date:</strong> September 01, 2023</p>
+<h2 id="project-structure">Project Structure</h2>
 
-<p>Evaluating accuracy and test-retest reliability of publicly available software for brain age prediction using structural MRI</p>
+<p>Generated projects follow this layout:</p>
 
-<h3 id="multimodal-brain-age-prediction-using-machine-learning"><a href="/projects/bap2a/">Multimodal Brain Age Prediction Using Machine Learning</a></h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>your-project-name/
+├── your_package_name/     # Main source code
+├── data/                  # Data files
+├── docs/                  # Documentation
+├── notebooks/             # Jupyter notebooks
+├── results/               # Analysis results
+├── scripts/               # Utility scripts
+├── tests/                 # Test files
+├── .gitignore
+├── LICENSE
+├── README.md
+└── pyproject.toml         # Poetry configuration
+</code></pre></div></div>
 
-<p><strong>Category:</strong> research<br>
-<strong>Date:</strong> April 26, 2024</p>
+<h2 id="prerequisites-and-python-version-management">Prerequisites and Python Version Management</h2>
 
-<p>Combining structural MRI and 5-HT2AR PET derived features for accurate brain age prediction</p>
+<p>Install the required tools:</p>
 
-<h3 id="erap"><a href="/projects/erap/">ERAP</a></h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>cookiecutter
+pip <span class="nb">install </span>poetry
+</code></pre></div></div>
 
-<p><strong>Category:</strong> research<br>
-<strong>Date:</strong> October 09, 2024</p>
+<p><strong>Optional but recommended:</strong></p>
+<ul>
+  <li>Install <a href="https://github.com/pyenv/pyenv" rel="external nofollow noopener" target="_blank">pyenv</a> for Python version management</li>
+  <li>If pyenv is available, the template can automatically configure it to use your specified Python version</li>
+  <li>If the specified Python version is already installed, the template can set up the entire project environment automatically</li>
+</ul>
 
-<p>Evaluating Rapamycin in Alzheimer’s disease using Positron emission tomography</p>
+<h2 id="usage">Usage</h2>
 
-<h3 id="reference-regions-for-pet-analysis"><a href="/projects/ref-regions/">Reference Regions for PET analysis</a></h3>
+<p>Generate a project:</p>
 
-<p><strong>Category:</strong> software<br>
-<strong>Date:</strong> October 09, 2024</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cookiecutter gh:your-username/simple-cookiecutter
+</code></pre></div></div>
 
-<p>A lightweight pyhton package to create reference regions for positron emission tomography (PET) analysis</p>
+<p>The template will prompt you for:</p>
+<ul>
+  <li>Project name and description</li>
+  <li>Package name (auto-generated from project name)</li>
+  <li>Python version</li>
+  <li>Author information</li>
+  <li>Which development tools to include</li>
+  <li>Whether to set up GitHub Actions</li>
+</ul>
 
-<h3 id="deep-learning-playground"><a href="/projects/dl-playground/">Deep Learning Playground</a></h3>
+<h2 id="configuration-options">Configuration Options</h2>
 
-<p><strong>Category:</strong> software<br>
-<strong>Date:</strong> October 13, 2024</p>
+<p>You can choose which tools to include:</p>
 
-<p>Implementations of various deep learning models for educational purposes</p>
+<ul>
+  <li>
+<strong>pytest</strong>: Testing framework</li>
+  <li>
+<strong>coverage</strong>: Code coverage reporting</li>
+  <li>
+<strong>black</strong>: Code formatting</li>
+  <li>
+<strong>mypy</strong>: Type checking</li>
+  <li>
+<strong>flake8</strong>: Linting</li>
+  <li>
+<strong>GitHub Actions</strong>: CI/CD pipeline</li>
+</ul>
 
-<h3 id="simple-cookiecutter-template"><a href="/projects/cookiecutter/">Simple Cookiecutter Template</a></h3>
+<h2 id="development-workflow">Development Workflow</h2>
 
-<p><strong>Category:</strong> software<br>
-<strong>Date:</strong> July 11, 2025</p>
+<p>After generation, common commands are:</p>
 
-<p>A simple cookiecutter template for starting Python projects with standard structure and development tools</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Install dependencies (only if not selected during generation)</span>
+poetry <span class="nb">install</span>
+
+<span class="c"># Run tests</span>
+poetry run pytest
+
+<span class="c"># Format code</span>
+poetry run black <span class="nb">.</span>
+
+<span class="c"># Type check</span>
+poetry run mypy package_name/
+
+<span class="c"># Lint code</span>
+poetry run flake8 package_name/
+</code></pre></div></div>
+
+<h2 id="tool-configurations">Tool Configurations</h2>
+
+<p>The template includes pre-configured settings:</p>
+
+<p><strong>Black</strong>: 88-character line length, target Python version matching your choice</p>
+
+<p><strong>MyPy</strong>: Strict type checking with warnings for untyped definitions</p>
+
+<p><strong>Coverage</strong>: HTML and XML reporting, excludes test files</p>
+
+<p><strong>Pytest</strong>: Discovers tests automatically, integrates with coverage</p>
+
+<h2 id="github-actions-integration">GitHub Actions Integration</h2>
+
+<p>If enabled, the template automatically sets up a complete CI workflow that runs on push and pull requests:</p>
+
+<ol>
+  <li>
+<strong>Automated test environment</strong>: Configures Python and Poetry</li>
+  <li>
+<strong>Code formatting check</strong>: Runs black to verify formatting</li>
+  <li>
+<strong>Linting</strong>: Executes flake8 with configured rules</li>
+  <li>
+<strong>Type checking</strong>: Runs mypy for static type analysis</li>
+  <li>
+<strong>Test execution</strong>: Runs pytest with coverage reporting</li>
+  <li>
+<strong>Coverage reporting</strong>: Uploads results to codecov (if configured)</li>
+</ol>
+
+<p>The workflow is ready to use immediately without additional configuration.</p>
+
+<h2 id="post-generation-setup">Post-Generation Setup</h2>
+
+<p>The template includes a post-generation hook that automatically:</p>
+<ul>
+  <li>Initializes a git repository with an initial commit</li>
+  <li>Sets up test environment configuration</li>
+  <li>Implements linting rules and configuration</li>
+  <li>Configures GitHub Actions workflow (if selected)</li>
+  <li>Offers to set up pyenv for Python version management (requires pyenv to be installed)</li>
+  <li>Offers to install project dependencies immediately (if the specified Python version is available)</li>
+</ul>
+
+<h2 id="example-session">Example Session</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>cookiecutter gh:your-username/simple-cookiecutter
+project_name <span class="o">[</span>My Python Project]: Data Processor
+project_slug <span class="o">[</span>data-processor]: 
+package_name <span class="o">[</span>data_processor]: 
+project_short_description: Process CSV files
+python_version <span class="o">[</span>3.10]: 3.11
+author_name <span class="o">[</span>Your Name]: John Smith
+use_pytest <span class="o">[</span>y]: y
+use_black <span class="o">[</span>y]: y
+<span class="c"># ... etc</span>
+</code></pre></div></div>
 
           </article>
 
