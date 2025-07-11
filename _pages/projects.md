@@ -7,7 +7,8 @@ nav: true
 nav_order: 3
 ---
 
-{% for project in site.projects %}
+{% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+{% for project in sorted_projects %}
 ### [{{ project.title }}]({{ project.url }})
 
 **Category:** {{ project.category }}  
