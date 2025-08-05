@@ -59,7 +59,7 @@ pip install poetry
 Generate a project:
 
 ```bash
-cookiecutter gh:your-username/simple-cookiecutter
+cookiecutter gh:RDoerfel/simple-cookiecutter
 ```
 
 The template will prompt you for:
