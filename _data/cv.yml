@@ -19,12 +19,12 @@
       institution: Karolinska Institutet
       year: 2023-Today
       description:
-        - <b>Specialization</b> Medical Imaging, Machine Learning, and Image Processing
+        - <b>Specialization</b> (Brain) Aging, Medical Imaging, Machine Learning
     - title: M.Sc. in Biomedical Engineering
       institution: Technical University Denmark & University of Copenhagen, Copenhagen, Denmark
       year: 2020-2023
       description:
-        - <b>Specialization</b> Medical Imaging, Machine Learning, and Image Processing
+        - <b>Specialization</b> (Brain) Aging, Medical Imaging, Machine Learning
         - <b>Thesis</b> Multimodal brain age prediction - Feature selection and comparison between machine learning models using MRI- and PET-derived measures
     - title: B.Sc. in Biomedical Engineering
       institution: Technische Universität Ilmenau, Ilmenau, Germany
@@ -75,18 +75,59 @@
 - title: Grants and Scholarships
   type: time_table
   contents:
+  - title: KUF Travel Grant
+    institution: Karolinska Institutet
+    year: 2025
+    description:
+      - Amount - 30,000 SEK 
+      - Purpose - Travel grant for research stay abroad.
+      - Institution - Center for Integrative Neuroimaging, Oxford University
+  - title: SSMF Travel Grant
+    institution: Swedish Society for Medical Research (SSMF)
+    year: 2025
+    description:
+      - Amount - 50,000 SEK 
+      - Purpose - Travel grant for conference participation.
+      - Purpose - Travel grant for research stay abroad.
+      - Institution - Center for Integrative Neuroimaging, Oxford University
   - title: BND Summer of Code
     institution: Bundesnachrichtendienst (BND)
     year: Jul. 2020 - Sep. 2020
     description:
+      - Amount - 5,000 EUR
       - Project - Novel software tools for the processing of brain signals in a Brain-Computer Interface (BCI)
       - Purpose - Development and support of open-source software.
   - title: PROMOS Travel Stipend
     institution: German Academic Exchange Program (DAAD)
     year: Nov. 2019 - Apr. 2020
     description:
+      - Amount - 2,000 EUR
       - Purpose - Travel stipend for academic education and training abroad.
       - Institution - MGH/HST Martinos Center for Biomedical Imaging
+
+- title: Reviewing Activities
+  type: list
+  contents:
+    - Nature Communications
+    - GeroScience
+    - Brain Informatics
+    - Imaging Neuroscience
+
+- title: Awards and Honors
+  type: time_table
+  contents:
+  - title: GeroScience Publication Award – Honorable Mention
+    year: 2025
+    description:
+      - Recognition by the Editors-in-Chief for excellence in published research for https://link.springer.com/article/10.1007/s11357-024-01148-6
+  - title: Human Brain Mapping Top Viewed Article in 2023
+    year: 2025
+    description:
+      - Ranked within the top 10% of most-viewed papers published by the journal in 2023 with https://onlinelibrary.wiley.com/doi/10.1002/hbm.26502
+  - title: Human Brain Mapping Top Cited Article in 2023
+    year: 2025
+    description:
+      - Ranked among the top 10 most-cited papers published by the journal in 2023 with https://onlinelibrary.wiley.com/doi/10.1002/hbm.26502
 
 - title: Teaching, Presentations, and Workshops
   type: time_table
