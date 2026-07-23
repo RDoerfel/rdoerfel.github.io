@@ -20,7 +20,7 @@ I am a biomedical engineer and data scientist with an interest in applied proble
 
 - **Biomarker development and validation** — assessing predictive performance, test–retest reliability, and clinical validity of brain age as a biomarker ([Human Brain Mapping, 2023](https://onlinelibrary.wiley.com/doi/10.1002/hbm.26502); [EBioMedicine, 2026](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(25)00544-4/fulltext)).
 - **Multimodal imaging** — combining structural MRI with 5-HT2AR PET to predict brain age ([GeroScience, 2024](https://link.springer.com/article/10.1007/s11357-024-01148-6)).
-- **Imaging analysis and pipeline development for clinical trials** — leading the multimodal image analysis and processing pipelines in [ERAP](/projects/erap/) ([medRxiv, 2025](https://www.medrxiv.org/content/10.64898/2025.12.08.25340853v1)), evaluating rapamycin in Alzheimer's disease.
+- **Imaging analysis and pipeline development for clinical trials** — leading the multimodal image analysis and processing pipelines in [ERAP](/projects/erap/) ([medRxiv, 2025](https://www.medrxiv.org/content/10.64898/2025.12.08.25340853v1)), a pilot phase II trial of rapamycin in Alzheimer's disease..
 - **Machine learning and applied statistics** — longitudinal modelling of brain ageing in large clinical and population cohorts, including ADNI and UK Biobank ([medRxiv, 2025](https://www.medrxiv.org/content/10.64898/2025.12.10.25341964v1.full)).
 - **Reproducible research software** — open-source tools for neuroimaging analysis and scientific computing (see [projects](/projects/)).
 
