@@ -4,11 +4,12 @@
     - name: Full Name
       value: Ruben Dörfel
     - name: Languages
-      value: English (Proficent), German (Native)
-    - name: Programming 
-      value: Python, MATLAB, C++, R
+      value: English (Proficient), German (Native)
+    - name: Programming
+      value: Python, R, C++, MATLAB
     - name: Skills
-      value: Machine/Deep Learning, Medical Imaging Systems, Image Processing/Analysis, Software Development, Neuroscience
+      value: Biomarker Development and Validation, Machine/Deep Learning, Applied Statistics, Medical Image Analysis (MRI, PET, M/EEG), Reproducible Research Software
+
     - name: Hobbies
       value: Climbing, Hiking, Skiing, Reading, Coding, Learning
 
@@ -19,56 +20,57 @@
       institution: Karolinska Institutet
       year: 2023-Today
       description:
-        - <b>Specialization</b> (Brain) Aging, Medical Imaging, Machine Learning
+        - <b>Specialisation</b> (Brain) Ageing, Medical Imaging, Machine Learning
     - title: M.Sc. in Biomedical Engineering
-      institution: Technical University Denmark & University of Copenhagen, Copenhagen, Denmark
+      institution: Technical University of Denmark & University of Copenhagen, Copenhagen, Denmark
       year: 2020-2023
       description:
-        - <b>Specialization</b> (Brain) Aging, Medical Imaging, Machine Learning
+        - <b>Specialisation</b> (Brain) Ageing, Medical Imaging, Machine Learning
         - <b>Thesis</b> Multimodal brain age prediction - Feature selection and comparison between machine learning models using MRI- and PET-derived measures
     - title: B.Sc. in Biomedical Engineering
       institution: Technische Universität Ilmenau, Ilmenau, Germany
       year: 2016-2020
       description:
-        - <b>Specialization</b> Biomagnetism, Signal Processing, Medical Imaging
+        - <b>Specialisation</b> Biomagnetism, Signal Processing, Medical Imaging
         - <b>Thesis</b> Integration of continuous HPI data into real-time processing of MEG data
-        
+
 - title: Experience
   type: time_table
   contents:
   - title: Visiting Academic
-    institution: University of Oxford, Oxford Center for Integrative Neuroimaging;
+    institution: University of Oxford, Oxford Centre for Integrative Neuroimaging
     year: Feb. 2026 - Apr. 2026
     description:
       - Longitudinal modelling and machine learning on UK Biobank data.
   - title: PhD Student
-    institution: Karolinska Institutet, Center for Psychiatry Research; Copenhagen University Hospital Rigshospitalet, Neurobiology Research Unit
+    institution: Karolinska Institutet, Centre for Psychiatry Research; Copenhagen University Hospital Rigshospitalet, Neurobiology Research Unit
     year: Nov. 2023 - Today
     description:
-      - Statistical modeling and machine learning on neuroimaging data to develop biomarkers of the aging brain.
+      - Development and validation of imaging biomarkers of brain ageing, assessing predictive performance, test-retest reliability, and clinical validity in large cohorts (ADNI, UK Biobank).
+      - Lead for multimodal image analysis and processing pipeline development in ERAP, a pilot phase II trial of rapamycin in Alzheimer's disease.
   - title: Research Assistant - Data Analysis
-    institution: Copenhagen University Hospital Rigshospitalet, Neurobiology Research Unit;
+    institution: Copenhagen University Hospital Rigshospitalet, Neurobiology Research Unit
     year: Mar. 2023 - Nov. 2023
     description:
-      - Statistical modeling and machine learning on neuroimaging data to develop biomarkers of the aging brain.
+      - Benchmarking of publicly available brain age prediction software for accuracy and test-retest reliability.
   - title: Student Researcher - Data Analysis
     institution: Copenhagen University Hospital Rigshospitalet, Neurobiology Research Unit
     year: Feb. 2022 - Feb. 2023
     description:
-      - Statistical modeling and machine learning on MRI- and PET-derived measures to develop biomarkers of the aging brain.
+      - Multimodal brain age prediction combining MRI- and PET-derived measures using machine learning.
   - title: Student Worker - Software Engineering
     institution: Demant A/S, R&D Audiological Solutions
     year: Jun. 2021 - Feb. 2023
     description:
       - Development of unit-testing framework and improvement of continuous integration pipeline with hearing aids in the loop.
   - title: Visiting Researcher - Data Analysis
-    institution: Karolinska Institutet, Center for Psychiatry Research - PET Group
+    institution: Karolinska Institutet, Centre for Psychiatry Research - PET Group
     year: Sep. 2022 - Oct. 2022
     description:
       - Image processing and analysis of Positron Emission Tomography images and Magnetic Resonance Images.
   - title: Student Researcher - Research Software Development
     institution: Massachusetts General Hospital, Harvard Medical School, Martinos Center for Biomedical Imaging
-    year: Nov. 2019 - Mai 2020
+    year: Nov. 2019 - May 2020
     description:
       - Development of algorithms for real-time movement correction in MEG measurements and online updating of neural source reconstruction
   - title: Student Worker - Embedded Software
@@ -84,22 +86,22 @@
     institution: Fredrik och Ingrid Thurings Stiftelse
     year: 2025
     description:
-      - Amount - 100,000 SEK 
+      - Amount - 100,000 SEK
       - Purpose - Research grant for project expenses and salary.
   - title: KUF Travel Grant
     institution: Karolinska Institutet
     year: 2025
     description:
-      - Amount - 30,000 SEK 
+      - Amount - 30,000 SEK
       - Purpose - Travel grant for research stay abroad.
-      - Institution - Center for Integrative Neuroimaging, Oxford University
+      - Institution - Centre for Integrative Neuroimaging, University of Oxford
   - title: SSMF Travel Grant
     institution: Swedish Society for Medical Research (SSMF)
     year: 2025
     description:
-      - Amount - 50,000 SEK 
+      - Amount - 50,000 SEK
       - Purpose - Travel grant for research stay abroad.
-      - Institution - Center for Integrative Neuroimaging, Oxford University
+      - Institution - Centre for Integrative Neuroimaging, University of Oxford
   - title: BND Summer of Code
     institution: Bundesnachrichtendienst (BND)
     year: Jul. 2020 - Sep. 2020
@@ -123,7 +125,7 @@
     - Brain Informatics
     - Imaging Neuroscience
 
-- title: Awards and Honors
+- title: Awards and Honours
   type: time_table
   contents:
   - title: GeroScience Publication Award – Honorable Mention
@@ -151,7 +153,7 @@
     institution: Department of Computer Science, University of Copenhagen, Denmark
     year: Sept. 2024
     description:
-      - Title - Prediction of brain age using structural magnetic resonance imaging 
+      - Title - Prediction of brain age using structural magnetic resonance imaging
   - title: Poster Presentation
     institution: Organization for Human Brain Mapping (OHBM), Seoul, South Korea
     year: Jun. 2024
@@ -166,7 +168,7 @@
     institution: NRU Christmas Symposium, Copenhagen, Denmark
     year: Dec. 2023
     description:
-      - Title - Brain Age; Biological aging biomarker or just an expensive chronological age measure? 
+      - Title - Brain Age; Biological aging biomarker or just an expensive chronological age measure?
   - title: Oral Presentation
     institution: Nordic AI Meet, Copenhagen, Denmark
     year: Oct. 2023
@@ -177,6 +179,3 @@
     year: Sept. 2023
     description:
       - Title - Multimodal brain age estimation using machine learning
-
-
-
